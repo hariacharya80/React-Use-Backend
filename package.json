@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/hariacharya80/React-Use-Backend/issues"
   },
-  "homepage": "https://github.com/hariacharya80/React-Use-Backend#readme"
+  "homepage": "https://github.com/hariacharya80/React-Use-Backend#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }

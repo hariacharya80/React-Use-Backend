@@ -17,12 +17,12 @@ yarn add bitbackend
 ```
 
 ### Configure your backend.
-To configure your backend, you can use the `configureBackend` from <strong>BitBackend</strong>
+To configure your backend, you can use the `configureBackend` function from <strong>BitBackend</strong>
 
 ```javascript
-import {configureBackend} from 'bitbackend';
+import { useBackend } from 'bitbackend';
 
-configureBackend.apply({
+useBackend.configure({
     baseUrl: 'mybackend.com',
     ...otherConfig
     // your api configurations as required by the 
@@ -31,4 +31,4 @@ configureBackend.apply({
 ```
 
 ### Making a backend call
-To make a call to your backend, you can use the useBackend method provided by bitBackend
+To make a call to your backend, you can use call provided by bitbackend.
