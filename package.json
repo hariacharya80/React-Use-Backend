@@ -1,6 +1,6 @@
 {
   "name": "bitbackend",
-  "version": "1.0.1",
+  "version": "1.0.1.0",
   "description": "A simple react hook for RESTapi management",
   "main": "index.js",
   "scripts": {
