@@ -1,4 +1,5 @@
 export interface Ibackend {
+    method: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'OPTIONS' | 'PATCH'
     baseUrl: string;
     header: object;
     path: string;

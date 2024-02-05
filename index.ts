@@ -2,8 +2,8 @@ import validateBackendConfig from "./internal/configuration.validation";
 import CurrentConfig from "./internal/current.config";
 import { Ibackend } from "./internal/types"
 
-const configureBackend = function ({ baseUrl, path, params, authType, header, data }: Ibackend) {
-    validateBackendConfig({ baseUrl, path, params, authType, header, data });
+const configureBackend = function ({ baseUrl, method, path, params, authType, header, data }: Ibackend) {
+    validateBackendConfig({ baseUrl, method, path, params, authType, header, data });
     return { success: true, message: "Backend configuration saved successfully." }
 }
 
@@ -18,9 +18,5 @@ const makeBackendCall = function () {
     return { success: true, message: "Backend response received successfully." }
 }
 
-const useBackend = {
-    configure: configureBackend,
-    call: makeBackendCall
-}
 
-export default useBackend;
+export default { configure: configureBackend, call: makeBackendCall };
