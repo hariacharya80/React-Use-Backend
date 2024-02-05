@@ -32,3 +32,11 @@ useBackend.configure({
 
 ### Making a backend call
 To make a call to your backend, you can use call provided by bitbackend.
+```javascript
+
+import { useBackend } from 'bitbackend';
+
+    
+
+
+```
