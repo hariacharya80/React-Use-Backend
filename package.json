@@ -1,0 +1,27 @@
+{
+  "name": "bitbackend",
+  "version": "1.0.0",
+  "description": "A simple react hook for RESTapi management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariacharya80/React-Use-Backend.git"
+  },
+  "keywords": [
+    "React",
+    "React",
+    "Native",
+    "Backend",
+    "useBackend",
+    "Hook"
+  ],
+  "author": "Hari Acharya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hariacharya80/React-Use-Backend/issues"
+  },
+  "homepage": "https://github.com/hariacharya80/React-Use-Backend#readme"
+}
